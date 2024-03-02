@@ -1,0 +1,61 @@
+@media screen and (max-width: 1077px) {
+    .project {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    article {
+        margin: 0;
+    }
+
+    article>p {
+        text-align: center;
+    }
+
+    aside {
+        align-self: center;
+        text-align: center;
+    }
+
+    header a {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 654px) {
+    .title-web {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 654px) {
+    header ul {
+        width: 100%;
+        left: 0;
+        top: 59px;
+        background-color: #a1824a;
+        position: fixed;
+        text-align: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 16px 0;
+        row-gap: 16px;
+    }
+
+    header a {
+        margin-left: 0;
+    }
+
+    header .bar-icon {
+        display: block;
+    }
+
+    header .navigation {
+        display: none;
+    }
+}

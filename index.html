@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danu Ramdhani</title>
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- JavaScript -->
+    <script src="night_mode.js" defer></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barriecito&family=Krona+One&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Signika+Negative:wght@300..700&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/5fa8e91249.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="day-mode">
+
+    <header>
+        <div class="title">
+            <i class="fa-solid fa-ring"></i>
+            <h3>Danu Ramdhani<span class="title-web"> - Computer Science Portofolio</span></h3>
+        </div>
+        <ul class="navigation">
+            <li><a href="">About</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">Contact</a></li>
+            <a class="night-mode-button" onclick="toggleNightMode()">
+                <i id="modeIcon" class="fas fa-moon" onclick="changeIcon()"></i>
+            </a>
+        </ul>
+        <a class="bar-icon" onclick="toggleHiddenDiv()"><i class="fas fa-bars"></i></a>
+    </header>
+
+    <main>
+
+        <article>
+            <div class="profile">
+                <img src="assets/images/my-foto.jpg" alt="my-foto">
+                <h2>Danu Ramdhani</h2>
+                <h4>Computer Science Student<br>Specializing in Javascript and Dart</h4>
+            </div>
+
+            <p>As a dedicated computer science student, I have honed my skills in JavaScript and Dart Flutter through
+                various projects and coursework. My passion for coding and problem-solving drives me to continuously
+                learn and improve my abilities.</p>
+
+            <div class="project">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/images/project1.jpg" alt="project1">
+                        <h4>Project1</h4>
+                        <h5>JavaScript Game</h5>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="">
+                        <img src="assets/images/project2.jpg" alt="project2">
+                        <h4>Project2</h4>
+                        <h5>Mobile App</h5>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="">
+                        <img src="assets/images/project3.jpg" alt="project3">
+                        <h4>Project3</h4>
+                        <h5>Web Application</h5>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="">
+                        <img src="assets/images/project4.jpg" alt="project4">
+                        <h4>Project4</h4>
+                        <h5>Interactive Website</h5>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <aside>
+            <h1>Skills</h1>
+            <button>JavaScript</button>
+            <button>Dart Flutter</button>
+            <h1>Projects</h1>
+            <div class="list-tile">
+                <a href="">
+                    <div>
+                        <h4>Project1</h4>
+                        <h5>JavaScript Game</h5>
+                    </div>
+                    <img src="assets/images/project1.jpg" alt="project1">
+                </a>
+            </div>
+            <div class="list-tile">
+                <a href="">
+                    <div>
+                        <h4>Project2</h4>
+                        <h5>Mobile App</h5>
+                    </div>
+                    <img src="assets/images/project2.jpg" alt="project2">
+                </a>
+            </div>
+            <div class="list-tile">
+                <a href="">
+                    <div>
+                        <h4>Project3</h4>
+                        <h5>Web Application</h5>
+                    </div>
+                    <img src="assets/images/project3.jpg" alt="project3">
+                </a>
+            </div>
+            <div class="list-tile">
+                <a href="">
+                    <div>
+                        <h4>Project4</h4>
+                        <h5>Interactive Website</h5>
+                    </div>
+                    <img src="assets/images/project4.jpg" alt="project4">
+                </a>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer>
+        <div>
+            <h4>Privacy Policy</h4>
+            <h4>Terms of Service</h4>
+        </div>
+        <div class="icons">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <h4>© 2023 Danu Ramdhani. All right reserved.</h4>
+    </footer>
+
+</body>
+
+</html>
